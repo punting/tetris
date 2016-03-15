@@ -1,0 +1,27 @@
+.playground{width: 525px; height: 550px;
+	margin: 20px auto 0 auto;
+	position: relative;
+	background-image:url(../img/tetris.png);
+	border:1px solid red;
+}
+.pause{width: 525px; height: 550px;
+	position: absolute;
+	top:0;left:0;
+	background-image:url(../img/pause.png);
+	z-index:100;
+	display:none;
+	border:1px solid red;
+}
+.playground img{position:absolute;z-index:10;border:1px solid red;}
+.playground p{
+	font-size: 30px;
+	font-family: 'SimHei';
+	font-weight: bold;
+	color: #667799;
+	position: absolute;
+	left:305px;
+	top:120px;
+	border:1px solid green;
+}
+.playground p+p{top:176px;border:1px solid yellow;}
+.playground p+p+p{top:232px;border:1px solid blue;}          
